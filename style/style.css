@@ -152,8 +152,31 @@ header{
     padding: 10px;
 }
 
+/*FOOTER*/
+footer{
+    background-color: var(--bg-footer);
+    color: var(--light-text);
+}
 
+footer nav{
+    padding: 25px;
+}
 
+footer h3{
+    padding-left: 9px;
+}
+
+.info{
+    font-size: 11px;
+}
+
+.left{
+    justify-content: flex-start;
+}
+
+.right{
+    justify-content: flex-end;
+}
 
 {
 
