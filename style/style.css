@@ -40,6 +40,10 @@ ul{
     padding: 15px;
 }
 
+ul li{
+    padding: 0 8px;
+}
+
 /*HEADER*/
 header{
     background-color: var(--bg-header);
