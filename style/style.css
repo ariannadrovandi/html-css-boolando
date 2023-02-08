@@ -15,10 +15,14 @@
     --text-price:#FF0000;
 }
 
+.debug{
+    border: 1px solid black;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid black;
+    
 }
 
 .d-flex{
@@ -44,13 +48,21 @@ ul li{
     padding: 0 8px;
 }
 
+a{
+    color: var(--light-text);
+    text-decoration: none;
+}
+
 /*HEADER*/
 header{
     background-color: var(--bg-header);
     color: var(--light-text);
 }
 
-
+.logo span{
+    font-size: 20px;
+    padding: 0 30px 0 0;
+}
 {
 
 }
