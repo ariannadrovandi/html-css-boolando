@@ -5,8 +5,22 @@
     box-sizing: border-box;
 }
 
+:root{
+    --bg-header:#FF6900;
+    --discount:#FF0000;
+    --sustainability:#008000;
+    --bg-footer:#1A1A1A;
+    --light-text:#FFFFFF;
+    --dark-text:#000000;
+    --text-price:#FF0000;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
     border: 1px solid black;
+}
+
+{
+
 }
