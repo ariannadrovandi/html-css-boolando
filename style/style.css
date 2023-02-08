@@ -82,7 +82,10 @@ header{
 
 .img3{
     width: 374.66px;
-    
+}
+
+.image{
+
 }
 
 .card img{
@@ -152,6 +155,60 @@ header{
     padding: 10px;
 }
 
+.image1b, .image2b, .image3b, .image4b, .image5b, .image6b{
+    display: none;
+}
+
+.image:hover .image1b{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+}
+.image:hover .image2b{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+}
+.image:hover .image3b{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+}
+.image:hover .image4b{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+}
+.image:hover .image5b{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+}
+.image:hover .image6b{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+}
+.image:hover .image1b{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+}
+
 /*FOOTER*/
 footer{
     background-color: var(--bg-footer);
@@ -181,3 +238,4 @@ footer h3{
 {
 
 }
+
