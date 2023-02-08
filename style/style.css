@@ -13,6 +13,7 @@
     --light-text:#FFFFFF;
     --dark-text:#000000;
     --text-price:#FF0000;
+    --text-brand: #808080;
 }
 
 .debug{
@@ -63,6 +64,97 @@ header{
     font-size: 20px;
     padding: 0 30px 0 0;
 }
+
+
+/*MAIN*/
+.row {
+    display: flex;
+    flex-flow: row nowrap; 
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.img3{
+    width: 374.66px;
+    
+}
+
+.card img{
+    width: 100%;
+}
+
+.hearts{
+    font-size: 20px;
+    background-color: var(--light-text);
+    padding: 6px 8px;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
+.discount{
+    font-size: 15px;
+    background-color: var(--discount);
+    color: var(--light-text);
+    padding: 6px 4px;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+} 
+
+.sustainability{
+    font-size: 15px;
+    background-color: var(--sustainability);
+    color: var(--light-text);
+    padding: 6px 4px;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    left: 45px;
+}
+
+.left-0{
+    left: 0;
+}
+
+.product-text{
+    padding-bottom: 30px;
+}
+
+.brand{
+    font-size: 14px;
+    color: var(--text-brand);
+}
+
+.product{
+    text-transform: uppercase;
+}
+
+.price{
+    font-size: 14px;
+    color: var(--text-price);
+}
+
+.price span{
+    color: var(--dark-text);
+    text-decoration: line-through;
+}
+
+.col{
+    padding: 10px;
+}
+
+
+
+
 {
 
 }
